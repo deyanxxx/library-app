@@ -1,0 +1,28 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    color: rgb(242, 210, 189);
+    background-color: rgb(40, 40, 43);
+    margin: 4%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(242, 210, 189);
+    border-radius: 8px;
+    margin: 4% 4% 0% 0%;
+    padding: 4%;
+}
