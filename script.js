@@ -68,8 +68,7 @@ document.getElementById('new-book-form').addEventListener('submit', (e) => {
   e.target.reset();
 });
 
-// Example books
-addBookToLibrary('Book 1', 'Author 1', 200, true);
-addBookToLibrary('Book 2', 'Author 2', 300, false);
+// Example 
+addBookToLibrary('The Naked Face', 'Sydney Sheldon', 320, true);
 
 displayBooks();

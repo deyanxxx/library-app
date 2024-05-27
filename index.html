@@ -8,10 +8,12 @@
   </head>
 
   <body>
-    <h1>Manage your library</h1>
+    <div class="top-container">
+      <h1>Manage your library</h1>
+      <button id="new-book-btn">Add Book</button>
+    </div>
     <div class="container" id="library">
     </div>
-    <button id="new-book-btn">Add Book</button>
     <dialog id="new-book-dialog">
       <form id="new-book-form">
         <label for="title">Title:</label>
@@ -26,8 +28,6 @@
         <button type="button" id="cancel-btn">Cancel</button>
       </form>
     </dialog>
-
     <script src="script.js"></script>
-
   </body>
 </html>

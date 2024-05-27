@@ -1,28 +1,72 @@
-*{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 body {
-    color: rgb(242, 210, 189);
-    background-color: rgb(40, 40, 43);
-    margin: 4%;
-}
-
-h1 {
+    background-color: #755139FF;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #F2EDD7FF;
+    font-size: 48px;
+  }
+  
+  .top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+  
+  .top-container h1 {
+    flex-grow: 1;
     text-align: center;
-}
-
-.container {
-    color: black;
+  }
+  
+  .top-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #F2EDD7FF;
+  }
+  
+  .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
+    margin: 16px;
+  }
+  
+  .card {
+    background-color: #F2EDD7FF;
+    border-radius: 4%;
+    padding: 16px;
+    margin: 16px;
+    width: 200px;
+  }
+  
+  dialog {
+    border: none;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .top-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .top-container button {
+      margin-top: 16px;
+    }
+  
+    .top-container h1 {
+      margin-bottom: 16px;
+    }
+  }
+  
 
-.card {
-    background-color: rgb(242, 210, 189);
-    border-radius: 8px;
-    margin: 4% 4% 0% 0%;
-    padding: 4%;
-}
+  
